@@ -1,0 +1,186 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title> Portfolio </title>
+        <!-- Font Awesome-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+        <!-- Main CSS-->
+        <link rel="stylesheet" href="css/style.css"/>
+    </head>
+
+    <body>
+        <header>
+            <a href="#" class="logo">CX</a>
+            <div class="menuToggle" onclick="toggleMenu();"></div>
+            <ul class="navigation">
+                <li><a href="#home" onclick="toggleMenu();">Home</a></li> 
+                <li><a href="#about" onclick="toggleMenu();">About</a></li> 
+                <li><a href="#services" onclick="toggleMenu();">Services</a></li>                    
+                <li><a href="#portfolio" onclick="toggleMenu();">Portfolio</a></li> 
+                <li><a href="#testimonials" onclick="toggleMenu();">Testimonial</a></li>
+                <li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
+            </ul>
+        </header>
+
+        <section class="home" id="home">
+            <div class="content">
+                <h2>Welcome to CX</h2>
+                <p>Come Lets Connect you the Blockchain.</p>
+                <a href="#" class="btn">Home</a>
+            </div>
+        </section>
+
+        <section class="about" id="about">
+            <div class="row">
+                <div class="col50">
+                    <h2 class="titleText">About Us</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam similique cum quasi quidem perferendis quae! Obcaecati eius minima asperiores rerum blanditiis quae recusandae, repudiandae dolores, deleniti molestias aperiam repellendus sint. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam similique cum quasi quidem perferendis quae! Obcaecati eius minima asperiores rerum blanditiis quae recusandae, repudiandae dolores, deleniti molestias aperiam repellendus sint.</p>
+                </div>
+                <div class="col50">
+                    <div class="imgBx">
+                        <img src="images/img1.jpg">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="services" id="services">
+            <div class="title">
+                <h2 class="titileText">Our Services</h2>
+                <p>Here are the Services we Render</p> 
+            </div>
+            <div class="content">
+                <div class="box">
+                    <div class="imgBx">
+                        <img src="images/img2.jpg">
+                    </div>
+                    <div class="text">
+                        <h3>Clean Energy</h3>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="imgBx">
+                        <img src="images/img3.jpg">
+                    </div>
+                    <div class="text">
+                        <h3>IPFS Storage</h3>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="imgBx">
+                        <img src="images/img4.jpg">
+                    </div>
+                    <div class="text">
+                        <h3>Blockchain Development</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="title">
+                <a href="#" class="btn">View All</a>
+                <p>Checkout the different Apllications and Services provided</p>
+            </div>
+        </section>
+
+        <section class="portfolio" id="portfolio">
+            <div class="title">
+                <h2 class="titleText">My Portfolio</h2>
+                <p>View of Previous Projects</p>
+            </div>
+
+            <div class="content">
+                <div class="box">
+                    <div class="imgBx">
+                        <img src="images/img5.jpg">
+                    </div>
+                    <div class="text">
+                        <h3>Cloud Solution</h3>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="imgBx">
+                        <img src="images/img6.jpg">
+                    </div>
+                    <div class="text">
+                        <h3>Blockchain Solution</h3>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="imgBx">
+                        <img src="images/img7.jpg">
+                    </div>
+                    <div class="text">
+                        <h3>Artificial Intelligence</h3>
+                    </div>
+                </div>
+            </div>  
+        </section>
+
+        <section class="testimonials" id="testimonials">
+            <div class="title blue">
+                <h2 class="titleText">Client Remarks</h2>
+                <p>References and Remarks from Previous Clients</p>
+            </div>
+            
+            <div class="content">
+                <div class="box">
+                    <div class="imgBx">
+                        <img src="images/img8.jpg">
+                    </div>
+
+                    <div class="Text">
+                        <p>Top Notch Developer, with an inspiring Mind</p>
+                        <h3>Google Cloud</h3>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="imgBx">
+                        <img src="images/img9.jpg">
+                    </div>
+
+                    <div class="text">
+                        <p>Dependable, Creative and all round intelligent</p>
+                        <h3>Amazon AWS</h3>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="contact" id="contact">
+            <div class="title">
+                <h2 class="titleText">Contact US</h2>
+                <p>FIll in the form below to Contact US for your Next Project</p>
+            </div>
+
+            <div class="contactForm">
+                <h3>Send Message</h3> 
+                <div class="inputBox">
+                    <input type="text" placeholder="Name">
+                </div>
+                <div class="inputBox">
+                    <input type="text" placeholder="Email">
+                </div>
+                <div class="inputBox">
+                    <textarea placeholder="Name"></textarea>
+                </div>
+                <div class="inputBox">
+                    <input type="submit" value="Send">
+                </div>
+            </div>
+        </section>
+
+        <div class="copyrightText">
+            <p> Copyright 2021 <a href="#">CX-Kariiwe</a>. All Rights Reserved</p>
+        </div>
+       
+        <!-- Main JS-->
+        <script src="JS/app.js" async defer></script>
+    </body>
+</html>
